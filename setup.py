@@ -34,6 +34,7 @@ setup(
     version=version,
     description='trello API wrapper using tapioca',
     long_description=readme,
+    long_description_content_type="text/markdown",
     author=author,
     author_email=email,
     url='https://github.com/humrochagf/tapioca-trello',
