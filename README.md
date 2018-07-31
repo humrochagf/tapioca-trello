@@ -15,9 +15,8 @@ pip install tapioca-trello
 ``` python
 from tapioca_trello import Trello
 
-
 api = Trello(
-	key='{your-api-token}',
+    key='{your-api-token}',
     token='{your-api-token}',
 )
 
