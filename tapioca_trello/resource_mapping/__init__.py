@@ -1,8 +1,12 @@
 # -*- coding: utf-8 -*-
 
-from .boards import BOARDS_MAPPING
-from .cards import CARDS_MAPPING
+from .action import ACTION_MAPPING
+from .batch import BATCH_MAPPING
+from .board import BOARD_MAPPING
+from .card import CARD_MAPPING
 
 RESOURCE_MAPPING = {}
-RESOURCE_MAPPING.update(BOARDS_MAPPING)
-RESOURCE_MAPPING.update(CARDS_MAPPING)
+RESOURCE_MAPPING.update(ACTION_MAPPING)
+RESOURCE_MAPPING.update(BATCH_MAPPING)
+RESOURCE_MAPPING.update(BOARD_MAPPING)
+RESOURCE_MAPPING.update(CARD_MAPPING)

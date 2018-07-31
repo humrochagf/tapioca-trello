@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-CARDS_MAPPING = {
+CARD_MAPPING = {
     'card_retrieve': {
         'resource': '/cards/{id}',
         'docs': (

@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-BOARDS_MAPPING = {
+BOARD_MAPPING = {
     'board_retrieve': {
         'resource': '/boards/{id}',
         'docs': (
