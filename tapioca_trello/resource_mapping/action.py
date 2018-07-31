@@ -95,6 +95,6 @@ ACTION_MAPPING = {
             'https://developers.trello.com/v1.0/reference'
             '#actionsid-1'
         ),
-        'methods': ['PUT'],
+        'methods': ['DELETE'],
     },
 }
