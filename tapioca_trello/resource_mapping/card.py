@@ -315,4 +315,12 @@ CARD_MAPPING = {
         ),
         'methods': ['DELETE'],
     },
+    'card_custom_field_update': {
+        'resource': '/card/{idCard}/customField/{idCustomField}/item',
+        'docs': (
+            'https://developers.trello.com/v1.0/reference'
+            '#customfielditemsid'
+        ),
+        'methods': ['PUT'],
+    },
 }
