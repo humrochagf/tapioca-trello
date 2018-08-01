@@ -68,7 +68,7 @@ NOTIFICATION_MAPPING = {
     'notification_read_status_update': {
         'resource': '/notifications/{id}',
         'docs': (
-            'https://developers.trello.com/v1.0/reference
+            'https://developers.trello.com/v1.0/reference'
             '#notificationsid-1'
         ),
         'methods': ['PUT'],

@@ -50,7 +50,7 @@ LANE_MAPPING = {
         'methods': ['PUT'],
     },
     'lane_archive': {
-        'resource': '/lists/{id}/closed'
+        'resource': '/lists/{id}/closed',
         'docs': (
             'https://developers.trello.com/v1.0/reference'
             '#listsidclosed'
@@ -97,7 +97,7 @@ LANE_MAPPING = {
         ),
         'methods': ['POST'],
     },
-    'lane_cards_archive': {
+    'lane_card_archive': {
         'resource': '/lists/{id}/archiveAllCards',
         'docs': (
             'https://developers.trello.com/v1.0/reference'
@@ -105,7 +105,7 @@ LANE_MAPPING = {
         ),
         'methods': ['POST'],
     },
-    'lane_cards_move': {
+    'lane_card_move': {
         'resource': '/lists/{id}/moveAllCards',
         'docs': (
             'https://developers.trello.com/v1.0/reference'

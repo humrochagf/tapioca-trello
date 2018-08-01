@@ -109,7 +109,7 @@ ORGANIZATION_MAPPING = {
     'organization_member_type_update': {
         'resource': '/organizations/{id}/members/{idMember}',
         'docs': (
-            'https://developers.trello.com/v1.0/reference
+            'https://developers.trello.com/v1.0/reference'
             '#organizationsidmembersidmember'
         ),
         'methods': ['PUT'],
@@ -117,8 +117,8 @@ ORGANIZATION_MAPPING = {
     'organization_member_status_update': {
         'resource': '/organizations/{id}/members/{idMember}/deactivated',
         'docs': (
-            'https://developers.trello.com/v1.0/reference
-            '#organizationsidmembersidmemberdeactivated'''
+            'https://developers.trello.com/v1.0/reference'
+            '#organizationsidmembersidmemberdeactivated'
         ),
         'methods': ['PUT'],
     },
