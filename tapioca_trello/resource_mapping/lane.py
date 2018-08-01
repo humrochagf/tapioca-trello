@@ -97,7 +97,7 @@ LANE_MAPPING = {
         ),
         'methods': ['POST'],
     },
-    'list_cards_archive': {
+    'lane_cards_archive': {
         'resource': '/lists/{id}/archiveAllCards',
         'docs': (
             'https://developers.trello.com/v1.0/reference'
@@ -105,7 +105,7 @@ LANE_MAPPING = {
         ),
         'methods': ['POST'],
     },
-    'list_cards_move': {
+    'lane_cards_move': {
         'resource': '/lists/{id}/moveAllCards',
         'docs': (
             'https://developers.trello.com/v1.0/reference'
