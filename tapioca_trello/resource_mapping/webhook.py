@@ -36,7 +36,7 @@ WEBHOOK_MAPPING = {
     'webhook_delete': {
         'resource': '/webhooks/{id}',
         'docs': (
-            'https://developers.trello.com/v1.0/reference
+            'https://developers.trello.com/v1.0/reference'
             '#webhooksid-1'
         ),
         'methods': ['DELETE'],
