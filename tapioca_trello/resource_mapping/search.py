@@ -4,7 +4,7 @@ SEARCH_MAPPING = {
     'search_retrieve_or_list': {
         'resource': '/search',
         'docs': (
-            'https://developers.trello.com/v1.0/reference
+            'https://developers.trello.com/v1.0/reference'
             '#search-1'
         ),
         'methods': ['GET'],
