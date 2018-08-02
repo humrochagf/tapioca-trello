@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 SEARCH_MAPPING = {
-    'search_retrieve_or_list': {
+    'search': {
         'resource': '/search',
         'docs': (
             'https://developers.trello.com/v1.0/reference'
@@ -9,7 +9,7 @@ SEARCH_MAPPING = {
         ),
         'methods': ['GET'],
     },
-    'search_members_list': {
+    'search_member': {
         'resource': '/search/members',
         'docs': (
             'https://developers.trello.com/v1.0/reference'
